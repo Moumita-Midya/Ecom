@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Restaurant Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="about.css"> -->
+
+<style>
+
+
+    :root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0.5rem 1.5 rem rgba(0,0,0,.1);
+    --red:#ff0000;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito' ,sans-serif;
+}
+
+
+
+/*body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.about-section{
+    margin-top: 3%;
+}
+.column {
+  float: left;
+  width: 23.3%;
+  margin-bottom: 20px;
+  padding: 0 7px;
+  margin-left: 5%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.column .card img{
+    height: 50%;
+    width: 100%;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.7rem;
+}
+
+.button:hover {
+  background-color: var(--green);
+  letter-spacing: .1rem;
+}
+.cards{
+    background-color: var(--black);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+.about .sub-heading{
+    margin-top: 5%;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h3{
+    color: var(--black);
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+
+.about .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: 2rem 4;
+    line-height: 2;
+}
+
+.about .row .content .icons-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+
+.about .row .content .icons-container .icons{
+    background: #eee;
+    border-radius: .5rem;
+    border:.5rem solid rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1 1 17rem;
+    padding: 1.5rem 1rem;
+}
+
+.about .row .content .icons-container .icons i{
+    font-size: 2.5rem ;
+    color: var(--green);
+}
+
+.about .row .content .icons-container .icons span{
+    font-size: 1.5rem ;
+    color: var(--black);
+
+</style>
+  
+   
+</head>
+
+    <body>
+ 
+
+
+
+    
+
+
+<!-- About -->
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>Discover the extraordinary at Fooddddie's Kitchen. </p>
+  <p>Our commitment to quality and exceptional service makes us your top choice.</p>
+</div>
+
+<section class="about" id="about">
+        <!-- <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+ -->
+        <div class="row">
+
+            <div class="image">
+                <img src="./assets/img/Food-Plate.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the world</h3>
+                <p>A good food website design don’t need to be ornamental— it can be simple and straightforward in order to let the food photography shine. It’s not that branding isn’t important, it’s just that it’s best communicated through colors and logos..</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                        
+                    </div>
+                     <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                        
+                    </div>
+                     <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24x7 services</span>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+            
+</section>
+
+
+
+<h2 class="sub-heading">Our Team</h2>
+<section class="cards">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./assets/img/chef1.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>hello i am Jane...</p>
+        <!-- <p>jane@example.com</p> -->
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./assets/img/chef2.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Hello i am Mike...</p>
+        <!-- <p>mike@example.com</p> -->
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./assets/img/chef3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>hello i am john... </p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+   <!-- <div class="column">
+    <div class="card">
+      <img src="./assets/img/chef5.jpg" alt="John">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> --> 
+</div>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">india</a>
+            <a href="#">japan</a>
+            <a href="#">USA</a>
+            <a href="#">amerika</a>
+            <a href="#">france</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"><i class="fa-solid fa-house"></i> home</a>
+            <a href="#dishes"><i class="fa-solid fa-plate-wheat"></i> dishes</a>
+            <a href="#about"><i class="fa-solid fa-eject"></i> about</a>
+            <a href="#menu"><i class="fa-solid fa-bowl-food"></i> menu</a>
+            <a href="#review"><i class="fa-solid fa-star"></i> review</a>
+            <a href="#order"><i class="fa-solid fa-bag-shopping"></i> order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">xyz@gmail.com</a>
+            <a href="#">abc@gmail.com</a>
+            <a href="#">contai, india - 721401</a>
+        </div>
+
+         <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i> facebook</a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i> instagram</a>
+            <a href="#"><i class="fa-brands fa-twitter"></i> twitter</a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+            <a href="#">contai, india - 721401</a>
+        </div>
+    </div>
+
+    <div class="credit">designed @ 2024 by <span>Adrita chakraborty</span></div>
+    
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.7.0.min.js.js"></script> 
+<script type="text/javascript" src="assets/bootstrap-4.6.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap-4.6.2/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</script>
+</body>
+
+</html>

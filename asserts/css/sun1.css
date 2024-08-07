@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Fjalla One", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Fjalla One", sans-serif;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 20%;
+}
+button:hover{
+    background-color:#ffc800 ;
+    color: #000;
+}
+
+
+
+.box{
+    height: 30px;
+    
+    display: flex;
+    cursor: pointer;
+    
+    align-items: center;
+    
+}
+.box:hover input{
+    width: 400px;
+        background: #d8d8d8;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fa{
+    color: #1daf;
+    font-weight: 18px;
+}
+
+.card .buy{
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.card:hover{
+    transform: scale(1.1);
+
+}
+.card:hover .buy{
+    transform: translateY(0);
+    opacity: 1;
+}
+.card img:hover{
+    transform: scale(0.8);
+}
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-navbar p{
+    font-size: 40px;
+    
+    justify-content: center;
+    margin-top: 13px;
+    margin-left: 50%;
+    
+}
+.top-navbar .icons{
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+.top-navbar a img{
+    margin-bottom: 3px;
+
+}
+.top-navbar a:hover{
+    color: #000;
+}
+#navbar{
+    background-color:  rgb((67), 0, 86);
+}
+#logo{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolo;
+    margin-bottom: 6px;
+}
+#logo span{
+    color: #ffc800;
+}
+.navbar{
+    font-size: 16px;
+    top:0;
+    left: 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.4);
+
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    color: #fff;
+    margin-left: 2px;
+    text-shadow: 0pa 0pa 1px #000;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color: #ffc800;
+}
+
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 20%;
+}
+button:hover{
+    background-color:#ffc800 ;
+    color: #000;
+}
+
+
+/*product card container*/
+.card-product-container {
+    padding: 5px;
+    display: flex;
+   
+    justify-content: space-between;
+    
+    
+}
+.main .col-md-3{
+    
+}
+.card-product-nested-card{
+    display: flex;
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.card-product{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    box-shadow: -5px -5px 10px rgba(0,0,0,0.1),5px 5px 10px rgba(0,0,0,0.1);
+
+}
+
+.card-nested{
+    cursor: pointer;
+   
+}
+.card-nested img{
+    width: 120px;
+    height: 102px;
+    object-fit: cover;
+}
+.card-product-btn{
+    font-size: 16px;
+    align-self: flex-start;
+    margin: 7px 10px ;
+   padding-left: 0;
+   background-color: transparent;
+   border: none;
+   color: #007bff;
+   text-decoration: none;
+
+
+ 
+}
+.second-card{
+    padding: 25px;
+    background-color: antiquewhite;
+}
+.third-card{
+    margin-top: 40px;
+    padding:25px ;
+    background-color: antiquewhite;
+}
+.card-product-btn:hover{
+    text-decoration: none;
+}
+.main{
+    position: relative;
+    /* top: -250px; */
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+/*second card*/
+.row{
+    margin: 30px;
+    justify-content: space-between;
+    
+}
+/*.img-wrap{
+    max-width: 100%;
+    height: 23vw;
+}*/
+img{
+    width: 40%;
+    height: 40%;
+}
+#carousel-inner{
+    background-color: antiquewhite;
+    
+}
+#carousel-inner h2{
+    margin-left: 60px;
+    
+}
+/*.img-wrap{
+    width: 100%;
+    height: 50%;
+}*/
+
+.anchor{
+    font-size:  25px;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    float: right;
+    padding-right: 25px;
+}
+
+
+.anchor:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+.shopNow{
+    margin-left: 15px;
+    font-size: 15px;
+    background-color: #fb774b;
+    display: inline-block;
+    float: left;
+    width: auto;
+    padding-right: 15px;
+    cursor: pointer;
+    
+
+
+
+}
+
+.shopNow:hover{
+    text-decoration: none;
+    color: #000000; 
+    
+
+}
+.banner,#banner{
+    background: url("../img/laptop1.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+    
+
+
+.card{
+    border:1rem solid rgba(0,0,0,0.1) ;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 10px rgba(0,0,0,0.1),5px 5px 10px rgba(0,0,0,0.1);;
+}
+
+
+
+
+
+/*for man*/
+
+.container .row .card  .fa-heart{
+    position: absolute;
+    top: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    color: 0.5rem 1.5rem rgba(0,0,0,0.1);
+    right: -15rem;
+
+
+}
+.container .row .card  .fa-heart:hover{
+    background-color: white;
+    color: green;
+
+}
+.container .row .card:hover .fa-heart{
+    right: 1.5rem;
+}
+/* sTAR */
+.star i{
+    margin-left: 5px;
+    font-size: 13px;
+    color: green;
+
+}
+.fa-star{
+   color: green;
+   height: 20px;
+   width: 10px;
+}
+.fa-cart-plus:hover{
+    color: #fb774b;
+    
+}
